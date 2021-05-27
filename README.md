@@ -1,4 +1,4 @@
-# SSMTool 2.1: Computation of invariant manifolds in high-dimensional mechanics problems
+# SSMTool 2.1: Computation of invariant manifolds & their reduced dynamics in high-dimensional mechanics problems
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4614201.svg)](https://doi.org/10.5281/zenodo.4614201)
 
 This package computes invariant manifolds in high-dimensional dynamical systems using the Parametrization Method with special attention to the computation of Spectral Submanifolds (SSM) and forced response curves in finite element models. 
@@ -12,8 +12,8 @@ We have included a demonstration of SSM computation over the following finite el
 
 - Oscillator chain: two, three and n degrees of freedom. 
 - Bernouli beam: modeled using linear finite elements with localized nonlinearity in the form of a cubic spring
-- von Karman straight beam in 2D: geometrically nonlinear finite element model with and without **internal resonances** (IR)
-- von Karman plate in 3D: geometrically nonlinear finite element model of a flat plate with and without **parallel computing**  
+- von Karman straight beam in 2D: geometrically nonlinear finite element model including **internal resonances** (IR)
+- von Karman plate in 3D: geometrically nonlinear finite element model of a flat plate including use of **parallel computing**  
 - von Karman shell-based shallow curved panel in 3D: geometrically nonlinear finite element model
 - Prismatic beam: nonlinear beam PDE discretized using Galerkin method onto a given number of modes.
 - NACA airfoil based aircraft wing model: shell-based nonlinear finite element model containing more than 100,000 degrees of freedom. 
